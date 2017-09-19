@@ -1,0 +1,6 @@
+framework module Pods_FashionUITests {
+  umbrella header "Pods-FashionUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

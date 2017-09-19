@@ -1,0 +1,814 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A3E1CF0F11BB737DBAA4A24 /* Pods_FashionTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60B7C273A4F49D456F87565D /* Pods_FashionTests.framework */; };
+		C1E034EE864F9491465E1BCE /* Pods_Fashion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 502FF63A97620ACEB90EEDBE /* Pods_Fashion.framework */; };
+		C646D6E61F70D4A900D747E0 /* ProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C646D6E51F70D4A900D747E0 /* ProductView.swift */; };
+		C646D6E81F70D5BF00D747E0 /* ProductMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = C646D6E71F70D5BF00D747E0 /* ProductMain.swift */; };
+		C646D6EB1F70D64700D747E0 /* Products.swift in Sources */ = {isa = PBXBuildFile; fileRef = C646D6EA1F70D64700D747E0 /* Products.swift */; };
+		C646D6ED1F70FC7E00D747E0 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = C646D6EC1F70FC7E00D747E0 /* Reachability.swift */; };
+		C646D6EF1F712A2400D747E0 /* MenCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = C646D6EE1F712A2400D747E0 /* MenCollection.swift */; };
+		C646D6F11F712A3A00D747E0 /* WomenCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = C646D6F01F712A3A00D747E0 /* WomenCollection.swift */; };
+		C6C9F0591F70609400919BD0 /* TableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C9F0581F70609400919BD0 /* TableCell.swift */; };
+		C6F607281F5DA4C900235078 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F607271F5DA4C900235078 /* AppDelegate.swift */; };
+		C6F6072A1F5DA4C900235078 /* Dashboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F607291F5DA4C900235078 /* Dashboard.swift */; };
+		C6F6072D1F5DA4C900235078 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6F6072B1F5DA4C900235078 /* Main.storyboard */; };
+		C6F6072F1F5DA4C900235078 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6F6072E1F5DA4C900235078 /* Assets.xcassets */; };
+		C6F607321F5DA4C900235078 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6F607301F5DA4C900235078 /* LaunchScreen.storyboard */; };
+		C6F6073D1F5DA4C900235078 /* FashionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F6073C1F5DA4C900235078 /* FashionTests.swift */; };
+		C6F607481F5DA4C900235078 /* FashionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F607471F5DA4C900235078 /* FashionUITests.swift */; };
+		F275FF52FB57ABF4A2EF3783 /* Pods_FashionUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1BD0DBAF2CD0594ACD8EA89 /* Pods_FashionUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C6F607391F5DA4C900235078 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6F6071C1F5DA4C900235078 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6F607231F5DA4C900235078;
+			remoteInfo = Fashion;
+		};
+		C6F607441F5DA4C900235078 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6F6071C1F5DA4C900235078 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6F607231F5DA4C900235078;
+			remoteInfo = Fashion;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0EC1C074809692AE71C78359 /* Pods-FashionTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FashionTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FashionTests/Pods-FashionTests.release.xcconfig"; sourceTree = "<group>"; };
+		2223140F9F57CA85B31E5E74 /* Pods-Fashion.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fashion.release.xcconfig"; path = "Pods/Target Support Files/Pods-Fashion/Pods-Fashion.release.xcconfig"; sourceTree = "<group>"; };
+		502FF63A97620ACEB90EEDBE /* Pods_Fashion.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fashion.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		55FD77CF790465B8585AA673 /* Pods-FashionTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FashionTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FashionTests/Pods-FashionTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5FDEEF0DE0A54EAA89B20DCD /* Pods-FashionUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FashionUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FashionUITests/Pods-FashionUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		60B7C273A4F49D456F87565D /* Pods_FashionTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FashionTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C646D6E51F70D4A900D747E0 /* ProductView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductView.swift; sourceTree = "<group>"; };
+		C646D6E71F70D5BF00D747E0 /* ProductMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductMain.swift; sourceTree = "<group>"; };
+		C646D6EA1F70D64700D747E0 /* Products.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Products.swift; sourceTree = "<group>"; };
+		C646D6EC1F70FC7E00D747E0 /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		C646D6EE1F712A2400D747E0 /* MenCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenCollection.swift; sourceTree = "<group>"; };
+		C646D6F01F712A3A00D747E0 /* WomenCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WomenCollection.swift; sourceTree = "<group>"; };
+		C6C9F0581F70609400919BD0 /* TableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableCell.swift; sourceTree = "<group>"; };
+		C6F607241F5DA4C900235078 /* Fashion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fashion.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6F607271F5DA4C900235078 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C6F607291F5DA4C900235078 /* Dashboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dashboard.swift; sourceTree = "<group>"; };
+		C6F6072C1F5DA4C900235078 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C6F6072E1F5DA4C900235078 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C6F607311F5DA4C900235078 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C6F607331F5DA4C900235078 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6F607381F5DA4C900235078 /* FashionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FashionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6F6073C1F5DA4C900235078 /* FashionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FashionTests.swift; sourceTree = "<group>"; };
+		C6F6073E1F5DA4C900235078 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6F607431F5DA4C900235078 /* FashionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FashionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6F607471F5DA4C900235078 /* FashionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FashionUITests.swift; sourceTree = "<group>"; };
+		C6F607491F5DA4C900235078 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB25F447065FDD3DA1E6D0F9 /* Pods-Fashion.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fashion.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Fashion/Pods-Fashion.debug.xcconfig"; sourceTree = "<group>"; };
+		EFBE7CB6A117E0877371591A /* Pods-FashionUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FashionUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FashionUITests/Pods-FashionUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F1BD0DBAF2CD0594ACD8EA89 /* Pods_FashionUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FashionUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C6F607211F5DA4C900235078 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1E034EE864F9491465E1BCE /* Pods_Fashion.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6F607351F5DA4C900235078 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A3E1CF0F11BB737DBAA4A24 /* Pods_FashionTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6F607401F5DA4C900235078 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F275FF52FB57ABF4A2EF3783 /* Pods_FashionUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7F1125367C90D2ED98683F30 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				502FF63A97620ACEB90EEDBE /* Pods_Fashion.framework */,
+				60B7C273A4F49D456F87565D /* Pods_FashionTests.framework */,
+				F1BD0DBAF2CD0594ACD8EA89 /* Pods_FashionUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C646D6E91F70D61400D747E0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C646D6EA1F70D64700D747E0 /* Products.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C6C9F0561F705F6A00919BD0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C6C9F0581F70609400919BD0 /* TableCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C6C9F0571F705F8800919BD0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C6F607291F5DA4C900235078 /* Dashboard.swift */,
+				C646D6E51F70D4A900D747E0 /* ProductView.swift */,
+				C646D6E71F70D5BF00D747E0 /* ProductMain.swift */,
+				C646D6EE1F712A2400D747E0 /* MenCollection.swift */,
+				C646D6F01F712A3A00D747E0 /* WomenCollection.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C6F6071B1F5DA4C900235078 = {
+			isa = PBXGroup;
+			children = (
+				C6F607261F5DA4C900235078 /* Fashion */,
+				C6F6073B1F5DA4C900235078 /* FashionTests */,
+				C6F607461F5DA4C900235078 /* FashionUITests */,
+				C6F607251F5DA4C900235078 /* Products */,
+				EBBA7C61A9C13BD9EC845EE0 /* Pods */,
+				7F1125367C90D2ED98683F30 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C6F607251F5DA4C900235078 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C6F607241F5DA4C900235078 /* Fashion.app */,
+				C6F607381F5DA4C900235078 /* FashionTests.xctest */,
+				C6F607431F5DA4C900235078 /* FashionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6F607261F5DA4C900235078 /* Fashion */ = {
+			isa = PBXGroup;
+			children = (
+				C646D6E91F70D61400D747E0 /* Model */,
+				C6C9F0571F705F8800919BD0 /* Controller */,
+				C6C9F0561F705F6A00919BD0 /* View */,
+				C6F607271F5DA4C900235078 /* AppDelegate.swift */,
+				C646D6EC1F70FC7E00D747E0 /* Reachability.swift */,
+				C6F6072E1F5DA4C900235078 /* Assets.xcassets */,
+				C6F6072B1F5DA4C900235078 /* Main.storyboard */,
+				C6F607301F5DA4C900235078 /* LaunchScreen.storyboard */,
+				C6F607331F5DA4C900235078 /* Info.plist */,
+			);
+			path = Fashion;
+			sourceTree = "<group>";
+		};
+		C6F6073B1F5DA4C900235078 /* FashionTests */ = {
+			isa = PBXGroup;
+			children = (
+				C6F6073C1F5DA4C900235078 /* FashionTests.swift */,
+				C6F6073E1F5DA4C900235078 /* Info.plist */,
+			);
+			path = FashionTests;
+			sourceTree = "<group>";
+		};
+		C6F607461F5DA4C900235078 /* FashionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C6F607471F5DA4C900235078 /* FashionUITests.swift */,
+				C6F607491F5DA4C900235078 /* Info.plist */,
+			);
+			path = FashionUITests;
+			sourceTree = "<group>";
+		};
+		EBBA7C61A9C13BD9EC845EE0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DB25F447065FDD3DA1E6D0F9 /* Pods-Fashion.debug.xcconfig */,
+				2223140F9F57CA85B31E5E74 /* Pods-Fashion.release.xcconfig */,
+				55FD77CF790465B8585AA673 /* Pods-FashionTests.debug.xcconfig */,
+				0EC1C074809692AE71C78359 /* Pods-FashionTests.release.xcconfig */,
+				5FDEEF0DE0A54EAA89B20DCD /* Pods-FashionUITests.debug.xcconfig */,
+				EFBE7CB6A117E0877371591A /* Pods-FashionUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C6F607231F5DA4C900235078 /* Fashion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6F6074C1F5DA4C900235078 /* Build configuration list for PBXNativeTarget "Fashion" */;
+			buildPhases = (
+				56A0162BCDB468C4E7CECB70 /* [CP] Check Pods Manifest.lock */,
+				C6F607201F5DA4C900235078 /* Sources */,
+				C6F607211F5DA4C900235078 /* Frameworks */,
+				C6F607221F5DA4C900235078 /* Resources */,
+				40A6275E7DB644CAEE2760F0 /* [CP] Embed Pods Frameworks */,
+				9C77B79EEAB0F2C977125E4B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fashion;
+			productName = Fashion;
+			productReference = C6F607241F5DA4C900235078 /* Fashion.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C6F607371F5DA4C900235078 /* FashionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6F6074F1F5DA4C900235078 /* Build configuration list for PBXNativeTarget "FashionTests" */;
+			buildPhases = (
+				A85A30DF2BC9B0DF4BA97587 /* [CP] Check Pods Manifest.lock */,
+				C6F607341F5DA4C900235078 /* Sources */,
+				C6F607351F5DA4C900235078 /* Frameworks */,
+				C6F607361F5DA4C900235078 /* Resources */,
+				1C4FA0326097B7D375B0E08A /* [CP] Embed Pods Frameworks */,
+				47D358BC028CC25C17B3C7C0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C6F6073A1F5DA4C900235078 /* PBXTargetDependency */,
+			);
+			name = FashionTests;
+			productName = FashionTests;
+			productReference = C6F607381F5DA4C900235078 /* FashionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C6F607421F5DA4C900235078 /* FashionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6F607521F5DA4C900235078 /* Build configuration list for PBXNativeTarget "FashionUITests" */;
+			buildPhases = (
+				4980C30E5A11E6E1EBE74877 /* [CP] Check Pods Manifest.lock */,
+				C6F6073F1F5DA4C900235078 /* Sources */,
+				C6F607401F5DA4C900235078 /* Frameworks */,
+				C6F607411F5DA4C900235078 /* Resources */,
+				634C20837DF01A7743CEECF6 /* [CP] Embed Pods Frameworks */,
+				886B9E93030333054B7C4CE5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C6F607451F5DA4C900235078 /* PBXTargetDependency */,
+			);
+			name = FashionUITests;
+			productName = FashionUITests;
+			productReference = C6F607431F5DA4C900235078 /* FashionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C6F6071C1F5DA4C900235078 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = armin;
+				TargetAttributes = {
+					C6F607231F5DA4C900235078 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					C6F607371F5DA4C900235078 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C6F607231F5DA4C900235078;
+					};
+					C6F607421F5DA4C900235078 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C6F607231F5DA4C900235078;
+					};
+				};
+			};
+			buildConfigurationList = C6F6071F1F5DA4C900235078 /* Build configuration list for PBXProject "Fashion" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C6F6071B1F5DA4C900235078;
+			productRefGroup = C6F607251F5DA4C900235078 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C6F607231F5DA4C900235078 /* Fashion */,
+				C6F607371F5DA4C900235078 /* FashionTests */,
+				C6F607421F5DA4C900235078 /* FashionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C6F607221F5DA4C900235078 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6F607321F5DA4C900235078 /* LaunchScreen.storyboard in Resources */,
+				C6F6072F1F5DA4C900235078 /* Assets.xcassets in Resources */,
+				C6F6072D1F5DA4C900235078 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6F607361F5DA4C900235078 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6F607411F5DA4C900235078 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1C4FA0326097B7D375B0E08A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FashionTests/Pods-FashionTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		40A6275E7DB644CAEE2760F0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Fashion/Pods-Fashion-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/DCKit/DCKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DCKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Fashion/Pods-Fashion-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		47D358BC028CC25C17B3C7C0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FashionTests/Pods-FashionTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4980C30E5A11E6E1EBE74877 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FashionUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		56A0162BCDB468C4E7CECB70 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Fashion-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		634C20837DF01A7743CEECF6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FashionUITests/Pods-FashionUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		886B9E93030333054B7C4CE5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FashionUITests/Pods-FashionUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C77B79EEAB0F2C977125E4B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Fashion/Pods-Fashion-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A85A30DF2BC9B0DF4BA97587 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FashionTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C6F607201F5DA4C900235078 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C646D6ED1F70FC7E00D747E0 /* Reachability.swift in Sources */,
+				C646D6E61F70D4A900D747E0 /* ProductView.swift in Sources */,
+				C646D6EF1F712A2400D747E0 /* MenCollection.swift in Sources */,
+				C646D6F11F712A3A00D747E0 /* WomenCollection.swift in Sources */,
+				C646D6E81F70D5BF00D747E0 /* ProductMain.swift in Sources */,
+				C6C9F0591F70609400919BD0 /* TableCell.swift in Sources */,
+				C6F6072A1F5DA4C900235078 /* Dashboard.swift in Sources */,
+				C646D6EB1F70D64700D747E0 /* Products.swift in Sources */,
+				C6F607281F5DA4C900235078 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6F607341F5DA4C900235078 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6F6073D1F5DA4C900235078 /* FashionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6F6073F1F5DA4C900235078 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6F607481F5DA4C900235078 /* FashionUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C6F6073A1F5DA4C900235078 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C6F607231F5DA4C900235078 /* Fashion */;
+			targetProxy = C6F607391F5DA4C900235078 /* PBXContainerItemProxy */;
+		};
+		C6F607451F5DA4C900235078 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C6F607231F5DA4C900235078 /* Fashion */;
+			targetProxy = C6F607441F5DA4C900235078 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C6F6072B1F5DA4C900235078 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6F6072C1F5DA4C900235078 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C6F607301F5DA4C900235078 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6F607311F5DA4C900235078 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C6F6074A1F5DA4C900235078 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C6F6074B1F5DA4C900235078 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C6F6074D1F5DA4C900235078 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB25F447065FDD3DA1E6D0F9 /* Pods-Fashion.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Fashion/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shalchian.me.Fashion;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C6F6074E1F5DA4C900235078 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2223140F9F57CA85B31E5E74 /* Pods-Fashion.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Fashion/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shalchian.me.Fashion;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C6F607501F5DA4C900235078 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55FD77CF790465B8585AA673 /* Pods-FashionTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FashionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shalchian.me.FashionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fashion.app/Fashion";
+			};
+			name = Debug;
+		};
+		C6F607511F5DA4C900235078 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EC1C074809692AE71C78359 /* Pods-FashionTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FashionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shalchian.me.FashionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fashion.app/Fashion";
+			};
+			name = Release;
+		};
+		C6F607531F5DA4C900235078 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FDEEF0DE0A54EAA89B20DCD /* Pods-FashionUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FashionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shalchian.me.FashionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Fashion;
+			};
+			name = Debug;
+		};
+		C6F607541F5DA4C900235078 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFBE7CB6A117E0877371591A /* Pods-FashionUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FashionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shalchian.me.FashionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Fashion;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C6F6071F1F5DA4C900235078 /* Build configuration list for PBXProject "Fashion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6F6074A1F5DA4C900235078 /* Debug */,
+				C6F6074B1F5DA4C900235078 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6F6074C1F5DA4C900235078 /* Build configuration list for PBXNativeTarget "Fashion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6F6074D1F5DA4C900235078 /* Debug */,
+				C6F6074E1F5DA4C900235078 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6F6074F1F5DA4C900235078 /* Build configuration list for PBXNativeTarget "FashionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6F607501F5DA4C900235078 /* Debug */,
+				C6F607511F5DA4C900235078 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6F607521F5DA4C900235078 /* Build configuration list for PBXNativeTarget "FashionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6F607531F5DA4C900235078 /* Debug */,
+				C6F607541F5DA4C900235078 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C6F6071C1F5DA4C900235078 /* Project object */;
+}
