@@ -31,13 +31,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <navigationBar contentMode="scaleToFill" ambiguous="YES" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u0E-tW-Fde">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="0.0"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                                 <items>
                                     <navigationItem title="Category" largeTitleDisplayMode="never" id="12n-o2-8go"/>
                                 </items>
                             </navigationBar>
                             <stackView opaque="NO" contentMode="scaleAspectFit" ambiguous="YES" distribution="fillEqually" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="DXR-7z-dyN">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
+                                <rect key="frame" x="0.0" y="44" width="320" height="519"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleAspectFit" ambiguous="YES" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="Sru-Dk-kvX">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="259.5"/>
@@ -46,10 +46,10 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="320" height="259.5"/>
                                                 <subviews>
                                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="men" translatesAutoresizingMaskIntoConstraints="NO" id="Aiz-jA-lPI">
-                                                        <rect key="frame" x="0.0" y="0.0" width="320" height="288"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="320" height="390"/>
                                                     </imageView>
                                                     <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" alignment="center" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="0CT-g3-4v5">
-                                                        <rect key="frame" x="8" y="246" width="304" height="32"/>
+                                                        <rect key="frame" x="8" y="348" width="304" height="32"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="MEN" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h19-Oq-aeT">
                                                                 <rect key="frame" x="0.0" y="6" width="45" height="20"/>
@@ -130,7 +130,7 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="320" height="259.5"/>
                                                 <subviews>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="women" translatesAutoresizingMaskIntoConstraints="NO" id="tMj-lj-BFC">
-                                                        <rect key="frame" x="0.0" y="0.0" width="320" height="288"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="320" height="390"/>
                                                     </imageView>
                                                     <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="Hb9-il-5sb">
                                                         <rect key="frame" x="8" y="217.5" width="304" height="32"/>
