@@ -11,7 +11,7 @@ import UIKit
 
 class Dashboard: UIViewController{
 
-    var collectionName : String? = ""
+    private var collectionName : String? = ""
     
     @IBOutlet weak var scrollView: UIScrollView!
     var images = [UIImageView]()
