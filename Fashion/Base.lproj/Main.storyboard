@@ -374,10 +374,10 @@
             </objects>
             <point key="canvasLocation" x="885" y="2306"/>
         </scene>
-        <!--Product Main-->
+        <!--Product-->
         <scene sceneID="k7t-Zb-oUa">
             <objects>
-                <viewController id="NcK-Jr-jA4" customClass="ProductMain" customModule="Fashion" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Product" id="NcK-Jr-jA4" customClass="ProductMain" customModule="Fashion" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="NRY-h0-EC7">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -991,5 +991,5 @@
     <inferredMetricsTieBreakers>
         <segue reference="8H2-CI-wsc"/>
     </inferredMetricsTieBreakers>
-    <color key="tintColor" red="0.59215686274509804" green="0.42745098039215684" blue="0.68627450980392157" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+    <color key="tintColor" red="0.54901960780000003" green="0.42352941179999998" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
 </document>
