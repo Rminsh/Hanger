@@ -16,11 +16,13 @@ class Dashboard: UIViewController{
     @IBOutlet weak var scrollView: UIScrollView!
     var images = [UIImageView]()
     
+    //new dresses collection's button
     @IBAction func dressCltPressed(_ sender: Any) {
         collectionName = "dresses"
         performSegue(withIdentifier: "dashboardVC", sender: collectionName)
     }
     
+    //new shirts collection's button
     @IBAction func shirtCltPressed(_ sender: Any) {
         collectionName = "shirts"
         performSegue(withIdentifier: "dashboardVC", sender: collectionName)
@@ -29,6 +31,8 @@ class Dashboard: UIViewController{
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        
+        //  <<Check Connection Network for preparing load images >> //
         if Reachability.isConnectedToNetwork(){
             print("Connected!")
         }else{
@@ -40,6 +44,8 @@ class Dashboard: UIViewController{
     
     override func viewDidAppear(_ animated: Bool) {
         
+        
+        // Loading header scroll view's images
         var contentWidth : CGFloat = 0.0
         
         for x in 1...3 {
@@ -62,6 +68,8 @@ class Dashboard: UIViewController{
         scrollView.contentSize = CGSize(width: contentWidth, height: scrollView.frame.size.height)
     }
     
+    
+    //Preparing Segue for sending collection name to another page for showing data
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if let destination = segue.destination as? ProductMain {
             if let productSender = sender as? String {

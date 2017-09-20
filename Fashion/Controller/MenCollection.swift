@@ -14,24 +14,29 @@ class MenCollection: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
         
     }
+    
+    //Shirt Collection Button
     @IBAction func shirtsPressed(_ sender: Any) {
         collectionName = "shirts"
         performSegue(withIdentifier: "openMenCollectionSegue", sender: collectionName)
         
     }
 
+    //Pants Collection Button
     @IBAction func pantsPressed(_ sender: Any) {
         collectionName = "pants"
         performSegue(withIdentifier: "openMenCollectionSegue", sender: collectionName)
     }
     
+    //Shoes Collection Button
     @IBAction func shoesPressed(_ sender: Any) {
         collectionName = "shoes"
         performSegue(withIdentifier: "openMenCollectionSegue", sender: collectionName)
     }
+    
+    //Preparing Segue for sending collection name to another page for showing data
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if let destination = segue.destination as? ProductMain {
             if let productSender = sender as? String {

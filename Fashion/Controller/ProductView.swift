@@ -12,15 +12,18 @@ class ProductView: UIViewController {
 
     var stepperPrice : String! = ""
     
+    //purchase button
     @IBAction func purchase(_ sender: Any) {
         let alert = UIAlertController(title: "Purchase Complete", message: "Thanks for your shopping", preferredStyle: UIAlertControllerStyle.alert)
         alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: nil))
         self.present(alert, animated: true, completion: nil)
     }
     
+    //back button
     @IBAction func backButton(_ sender: Any) {
         dismiss(animated: true, completion: nil)
     }
+    
     @IBOutlet weak var imagePreview: UIImageView!
     
     @IBOutlet weak var labelPreview: UILabel!
@@ -33,6 +36,8 @@ class ProductView: UIViewController {
         
         itemCountLabel.text = String(Int(sender.value))
         
+        
+        //multipling price to stepper's value
         let finalPrice = Double(stepperPrice)! * Double(sender.value)
         
         priceLabel.text = ("$\(Int(finalPrice))")
@@ -58,6 +63,7 @@ class ProductView: UIViewController {
         
         let url = URL(string: preview.imageURL)!
         
+        //Thread for loading images
         let task = URLSession.shared.dataTask(with: url) { data, response, error in
             guard let data = data, error == nil else { return }
             
@@ -69,6 +75,7 @@ class ProductView: UIViewController {
         task.resume()
     }
     
+    //Removing $ for converting price to int
     override func viewDidAppear(_ animated: Bool) {
         stepperPrice = priceLabel.text?.replacingOccurrences(of: "$", with: "")
     }

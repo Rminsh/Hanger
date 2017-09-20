@@ -32,6 +32,8 @@ class ProductMain: UIViewController , UITableViewDelegate , UITableViewDataSourc
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        
+        //Loading and adding data to list (based on Collection Name)
         if (_selectedProductName == "shirts") {
             let s1 = Products(imageURL: "https://static.modiseh.com/product/image/medium/ag6797_1.jpg" , title: "Celio Navy Blue Long Sleeve Shirt", price: "$34")
             
@@ -157,12 +159,14 @@ class ProductMain: UIViewController , UITableViewDelegate , UITableViewDataSourc
         return items.count
     }
     
+    //on Selected Data
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let product = items [indexPath.row]
         
         performSegue(withIdentifier: "ProductVC", sender: product)
     }
     
+    //Preparing Segue for sending selected table's data to another page for showing detail data
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if let destination = segue.destination as? ProductView {
             if let item = sender as? Products {

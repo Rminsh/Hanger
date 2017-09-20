@@ -15,18 +15,24 @@ class WomenCollection: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        
     }
+    
+    
+    //Dress Collection Button
     @IBAction func dressCltPressed(_ sender: Any) {
         collectionName = "dresses"
         performSegue(withIdentifier: "openWomenCollectionSegue", sender: collectionName)
     }
     
+    //Bags Collection Button
     @IBAction func bagsCltPressed(_ sender: Any) {
         
         collectionName = "bags"
         performSegue(withIdentifier: "openWomenCollectionSegue", sender: collectionName)
     }
+    
+    
+    //Preparing Segue for sending collection name to another page for showing data
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if let destination = segue.destination as? ProductMain {
             if let productSender = sender as? String {
